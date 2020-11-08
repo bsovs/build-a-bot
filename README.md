@@ -1,25 +1,52 @@
-# zello-bot
-*Beep Boop. Zello Channel Discord Bot*
+# Build-A-Bot
+*Starter kit to build a Discord Server Bot*
 
-<h2>Welcome Zello-U!</h2>
-<ul>
-  <li>All changes are welcome </li>
-  <li>Check <code>/examples</code> for a template on creating a command </li>
-</ul>
+### Getting Started
 
-<h2>Rewards</h2>
-<ul>
-  <li>To set rewards for contributing code use <code>!git -set [github username]</code> in Zello Discord Server </li>
-  <li>Rewards will be given upon merge to master. All PRs will be reviewed </li>
-</ul>
+Build-a-Bot requires [Node.js](https://nodejs.org/) v10+ to run.
+Install the dependencies and devDependencies and start the server.
 
-<h2>About</h2>
-<ul>
-  <li>Create commands in <code>/commands</code> folder using the example template</li>
-  <li>Pull this repo and run locally using your own discord bot token, or ask @bsovs for dev token</li>
-</ul>
+```sh
+$ git clone https://github.com/bsovs/build-a-bot.git
+$ cd build-a-bot
+$ npm i
+$ node server.js
+```
+### Launching Bot
+```sh
+$ node server
+```
 
-<h2>Commands</h2>
-<ul>
-  <li>Use !help for list of commands</li>
-</ul>
+### Creating a new command
+Run to create a new bot command (creates cmd, flag, and test files)
+```sh
+$ npm run new
+```
+
+### Testing
+Run mocha tests in intellij or by running the following test command
+```sh
+$ npm run test
+```
+
+# Full Guide
+### Step 1
+> Create a new application at: \
+> https://discord.com/developers/applications \
+> [![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774813483488641074/unknown.png)](https://discord.com/developers/applications)
+### Step 2
+> Add a bot to your new app \
+> ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774814312781840394/unknown.png)
+### Step 3
+> Copy your bot token (should be in the General tab) and head over to \
+> https://discord.com/oauth2/authorize?scope=bot&client_id=YOUR_CLIENT_ID \
+> ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774815879317159956/unknown.png) \
+> Should look something like this\
+> ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774815592581431357/unknown.png) \
+> Add your bot to your server
+### Step 4
+> Copy over your bot token to the config.json file \
+> ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774814817156071434/unknown.png) \
+> ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774816681242525776/unknown.png) \
+> `./config.json`
+
