@@ -1,0 +1,51 @@
+{
+  "title": "Commands:",
+  "type": "rich",
+  "description": "",
+  "url": "",
+  "color": null,
+  "fields": [
+    {
+      "name": "!anon",
+      "value": "Send anonymous messages",
+      "inline": false
+    },
+    {
+      "name": "!avatar",
+      "value": "Get the avatar URL of the tagged user(s), or your own avatar.",
+      "inline": false
+    },
+    {
+      "name": "!ping",
+      "value": "Check Bot ping!",
+      "inline": false
+    },
+    {
+      "name": "!v",
+      "value": "Version of Zello-Bot",
+      "inline": false
+    },
+    {
+      "name": "!help",
+      "value": "View a list of commands",
+      "inline": false
+    },
+    {
+      "name": "!zbucks",
+      "value": "Find out how many z-bucks you have",
+      "inline": false
+    }
+  ],
+  "thumbnail": {
+    "url": ""
+  },
+  "image": null,
+  "provider": null,
+  "author": null,
+  "files": [],
+  "footer": {
+    "text": "Credit Build-A-Bot by @bsovs",
+    "icon_url": "https://cdn.discordapp.com/avatars/295320498806718464/07ccf87c408c6f5279939e70c3af314e.webp"
+  },
+  "video": null
+}

@@ -1,0 +1,439 @@
+{
+  "channel": {
+    "type": "text",
+    "deleted": false,
+    "id": "766804341439856673",
+    "name": "general",
+    "rawPosition": 0,
+    "parentID": "766804341439856671",
+    "permissionOverwrites": [
+      "766804341439856670",
+      "767494604962267158",
+      "767494880632504360",
+      "767495355168194562"
+    ],
+    "topic": null,
+    "nsfw": false,
+    "lastMessageID": "774684652770033665",
+    "rateLimitPerUser": 0,
+    "lastPinTimestamp": null,
+    "guild": "766804341439856670",
+    "messages": [
+      "774684529138204683",
+      "774684586050977842",
+      "774684652770033665"
+    ],
+    "createdTimestamp": 1602890801535
+  },
+  "channelID": "766804341439856673",
+  "deleted": false,
+  "id": "774684652770033665",
+  "type": "DEFAULT",
+  "system": false,
+  "content": "!help",
+  "authorID": "295320498806718464",
+  "pinned": false,
+  "tts": false,
+  "nonce": "774684652337102848",
+  "embeds": [],
+  "attachments": [],
+  "createdTimestamp": 1604769614165,
+  "editedTimestamp": 0,
+  "webhookID": null,
+  "applicationID": null,
+  "activity": null,
+  "flags": 0,
+  "reference": null,
+  "guildID": "766804341439856670",
+  "cleanContent": "!help",
+  "permissionOverwrites": [
+    {
+      "id": "766804341439856670",
+      "type": "role",
+      "deny": 0,
+      "allow": 18432
+    },
+    {
+      "id": "767494604962267158",
+      "type": "role",
+      "deny": 0,
+      "allow": 8192
+    },
+    {
+      "id": "767494880632504360",
+      "type": "role",
+      "deny": 0,
+      "allow": 0
+    },
+    {
+      "id": "767495355168194562",
+      "type": "role",
+      "deny": 2048,
+      "allow": 0
+    }
+  ],
+  "guild": {
+    "members": [
+      "767448946728632371",
+      "295320498806718464"
+    ],
+    "channels": [
+      "766804341439856671",
+      "766804341439856672",
+      "766804341439856673",
+      "766804341439856674"
+    ],
+    "roles": [
+      "766804341439856670",
+      "767494604962267158",
+      "767494880632504360",
+      "767495355168194562",
+      "767927006318034954"
+    ],
+    "deleted": false,
+    "id": "766804341439856670",
+    "shardID": 0,
+    "name": "Barn's Testing Grounds",
+    "icon": "2d70463aa37a946046c49db4390b0f6c",
+    "splash": null,
+    "discoverySplash": null,
+    "region": "us-east",
+    "memberCount": 3,
+    "large": false,
+    "features": [],
+    "applicationID": null,
+    "afkTimeout": 300,
+    "afkChannelID": null,
+    "systemChannelID": "766804341439856673",
+    "premiumTier": 0,
+    "premiumSubscriptionCount": 0,
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "mfaLevel": 1,
+    "joinedTimestamp": 1603044570469,
+    "defaultMessageNotifications": "ALL",
+    "systemChannelFlags": 0,
+    "maximumMembers": 100000,
+    "maximumPresences": null,
+    "approximateMemberCount": null,
+    "approximatePresenceCount": null,
+    "vanityURLCode": null,
+    "vanityURLUses": null,
+    "description": null,
+    "banner": null,
+    "rulesChannelID": null,
+    "publicUpdatesChannelID": null,
+    "preferredLocale": "en-US",
+    "ownerID": "295320498806718464",
+    "emojis": [],
+    "createdTimestamp": 1602890801535,
+    "nameAcronym": "BTG",
+    "iconURL": "https://cdn.discordapp.com/icons/766804341439856670/2d70463aa37a946046c49db4390b0f6c.webp",
+    "splashURL": null,
+    "discoverySplashURL": null,
+    "bannerURL": null
+  },
+  "messages": {
+    "cache": [
+      {
+        "channelID": "766804341439856673",
+        "deleted": false,
+        "id": "774684529138204683",
+        "type": "DEFAULT",
+        "system": false,
+        "content": "!help",
+        "authorID": "295320498806718464",
+        "pinned": false,
+        "tts": false,
+        "nonce": "774684528554803200",
+        "embeds": [],
+        "attachments": [],
+        "createdTimestamp": 1604769584689,
+        "editedTimestamp": 0,
+        "webhookID": null,
+        "applicationID": null,
+        "activity": null,
+        "flags": 0,
+        "reference": null,
+        "guildID": "766804341439856670",
+        "cleanContent": "!help"
+      },
+      {
+        "channelID": "766804341439856673",
+        "deleted": false,
+        "id": "774684586050977842",
+        "type": "DEFAULT",
+        "system": false,
+        "content": "",
+        "authorID": "767448946728632371",
+        "pinned": false,
+        "tts": false,
+        "nonce": null,
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "Commands:",
+            "description": null,
+            "url": null,
+            "color": null,
+            "timestamp": 1604769584717,
+            "fields": [
+              {
+                "value": "Send anonymous messages",
+                "name": "!anon",
+                "inline": false
+              },
+              {
+                "value": "Get the avatar URL of the tagged user(s), or your own avatar.",
+                "name": "!avatar",
+                "inline": false
+              },
+              {
+                "value": "Check Bot ping!",
+                "name": "!ping",
+                "inline": false
+              },
+              {
+                "value": "Version of Zello-Bot",
+                "name": "!v",
+                "inline": false
+              },
+              {
+                "value": "View a list of commands",
+                "name": "!help",
+                "inline": false
+              },
+              {
+                "value": "Find out how many z-bucks you have",
+                "name": "!zbucks",
+                "inline": false
+              }
+            ],
+            "thumbnail": null,
+            "image": null,
+            "video": null,
+            "author": null,
+            "provider": null,
+            "files": []
+          }
+        ],
+        "attachments": [],
+        "createdTimestamp": 1604769598258,
+        "editedTimestamp": 0,
+        "webhookID": null,
+        "applicationID": null,
+        "activity": null,
+        "flags": 0,
+        "reference": null,
+        "guildID": "766804341439856670",
+        "cleanContent": ""
+      },
+      {
+        "channelID": "766804341439856673",
+        "deleted": false,
+        "id": "774684652770033665",
+        "type": "DEFAULT",
+        "system": false,
+        "content": "!help",
+        "authorID": "295320498806718464",
+        "pinned": false,
+        "tts": false,
+        "nonce": "774684652337102848",
+        "embeds": [],
+        "attachments": [],
+        "createdTimestamp": 1604769614165,
+        "editedTimestamp": 0,
+        "webhookID": null,
+        "applicationID": null,
+        "activity": null,
+        "flags": 0,
+        "reference": null,
+        "guildID": "766804341439856670",
+        "cleanContent": "!help"
+      }
+    ],
+    "channel": {
+      "type": "text",
+      "deleted": false,
+      "id": "766804341439856673",
+      "name": "general",
+      "rawPosition": 0,
+      "parentID": "766804341439856671",
+      "permissionOverwrites": [
+        "766804341439856670",
+        "767494604962267158",
+        "767494880632504360",
+        "767495355168194562"
+      ],
+      "topic": null,
+      "nsfw": false,
+      "lastMessageID": "774684652770033665",
+      "rateLimitPerUser": 0,
+      "lastPinTimestamp": null,
+      "guild": "766804341439856670",
+      "messages": [
+        "774684529138204683",
+        "774684586050977842",
+        "774684652770033665"
+      ],
+      "createdTimestamp": 1602890801535
+    }
+  },
+  "_typing": {},
+  "client": {
+    "shard": null,
+    "users": [
+      "767448946728632371",
+      "295320498806718464"
+    ],
+    "guilds": [
+      "766804341439856670"
+    ],
+    "channels": [
+      "766804341439856671",
+      "766804341439856672",
+      "766804341439856673",
+      "766804341439856674"
+    ],
+    "user": "767448946728632371",
+    "commandList": [
+      {
+        "name": "anon",
+        "description": "Send anonymous messages"
+      },
+      {
+        "name": "avatar",
+        "description": "Get the avatar URL of the tagged user(s), or your own avatar."
+      },
+      {
+        "name": "ping",
+        "description": "Check Bot ping!"
+      },
+      {
+        "name": "v",
+        "description": "Version of Zello-Bot"
+      },
+      {
+        "name": "help",
+        "description": "View a list of commands"
+      },
+      {
+        "name": "zbucks",
+        "description": "Find out how many z-bucks you have"
+      }
+    ],
+    "commands": [
+      "anon",
+      "avatar",
+      "ping",
+      "v",
+      "help",
+      "reload",
+      "zbucks"
+    ]
+  },
+  "author": {
+    "id": "295320498806718464",
+    "system": false,
+    "locale": null,
+    "flags": 0,
+    "username": "Brando",
+    "bot": false,
+    "discriminator": "7391",
+    "avatar": "07ccf87c408c6f5279939e70c3af314e",
+    "lastMessageChannelID": "766804341439856673",
+    "createdTimestamp": 1490480293705,
+    "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+    "tag": "Brando#7391",
+    "avatarURL": "https://cdn.discordapp.com/avatars/295320498806718464/07ccf87c408c6f5279939e70c3af314e.webp",
+    "displayAvatarURL": "https://cdn.discordapp.com/avatars/295320498806718464/07ccf87c408c6f5279939e70c3af314e.webp"
+  },
+  "attachments": [],
+  "reactions": {
+    "cache": [],
+    "message": {
+      "channelID": "766804341439856673",
+      "deleted": false,
+      "id": "774684652770033665",
+      "type": "DEFAULT",
+      "system": false,
+      "content": "!help",
+      "authorID": "295320498806718464",
+      "pinned": false,
+      "tts": false,
+      "nonce": "774684652337102848",
+      "embeds": [],
+      "attachments": [],
+      "createdTimestamp": 1604769614165,
+      "editedTimestamp": 0,
+      "webhookID": null,
+      "applicationID": null,
+      "activity": null,
+      "flags": 0,
+      "reference": null,
+      "guildID": "766804341439856670",
+      "cleanContent": "!help"
+    }
+  },
+  "mentions": {
+    "everyone": false,
+    "users": [],
+    "roles": [],
+    "crosspostedChannels": [],
+    "members": [],
+    "channels": []
+  },
+  "flags": 0,
+  "client": {
+    "shard": null,
+    "users": [
+      "767448946728632371",
+      "295320498806718464"
+    ],
+    "guilds": [
+      "766804341439856670"
+    ],
+    "channels": [
+      "766804341439856671",
+      "766804341439856672",
+      "766804341439856673",
+      "766804341439856674"
+    ],
+    "user": "767448946728632371",
+    "commandList": [
+      {
+        "name": "anon",
+        "description": "Send anonymous messages"
+      },
+      {
+        "name": "avatar",
+        "description": "Get the avatar URL of the tagged user(s), or your own avatar."
+      },
+      {
+        "name": "ping",
+        "description": "Check Bot ping!"
+      },
+      {
+        "name": "v",
+        "description": "Version of Zello-Bot"
+      },
+      {
+        "name": "help",
+        "description": "View a list of commands"
+      },
+      {
+        "name": "zbucks",
+        "description": "Find out how many z-bucks you have"
+      }
+    ],
+    "commands": [
+      "anon",
+      "avatar",
+      "ping",
+      "v",
+      "help",
+      "reload",
+      "zbucks"
+    ]
+  }
+}

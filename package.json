@@ -1,0 +1,40 @@
+{
+  "name": "build-a-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/mocha": "^8.0.3",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "discord.js": "^12.3.1",
+    "express": "^4.17.1",
+    "express-ping": "^1.4.0",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.20",
+    "memory-cache": "^0.2.0",
+    "mongodb": "^3.6.2",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^4.14.1",
+    "prompt": "^1.0.0",
+    "sinon-chai": "^3.5.0",
+    "universal-cookie": "^4.0.4",
+    "user-agents": "^1.0.559"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha './tests/**/*_test.js' './src/**/*_test.js'",
+    "new": "node ./creationService/commandFactory.js"
+  },
+  "keywords": [],
+  "author": "sovranb",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1"
+  }
+}

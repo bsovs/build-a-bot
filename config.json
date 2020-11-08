@@ -1,0 +1,14 @@
+{
+	"BOT_TOKEN": "YOUR BOT TOKEN",
+
+	"APP_URL": "YOUR HEROKU URL",
+
+	"MONGODB_URI": null,
+	"DB_PASS": "mongo db pass",
+	"DB_USERNAME": "mongo db username",
+	"DB_CLUSTER": "mongo db cluster ex. Cluster0",
+	"DB_NAME": "mongo db table name ex. users",
+
+	"prefix": "!",
+	"flags_strict": false
+}
