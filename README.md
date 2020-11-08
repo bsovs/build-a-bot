@@ -58,3 +58,7 @@ $ npm run test
 $ npm i
 $ node server.js
 ```
+### Hosting on Heroku
+> In order to keep your bot running all the time we suggest using Heroku hosting solutions. \
+> Head over to https://devcenter.heroku.com/articles/git and learn about how to deploy nodejs apps to Heroku \
+> Add your config variables from ` config.json ` to your apps environment variables. 
