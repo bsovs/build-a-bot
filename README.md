@@ -49,4 +49,12 @@ $ npm run test
 > ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774814817156071434/unknown.png) \
 > ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774816681242525776/unknown.png) \
 > `./config.json`
-
+### Step 5
+> Test it out!  \
+> Launch using ```node server``` in command promt, then send `!ping` in discord \
+> ![N|Solid](https://cdn.discordapp.com/attachments/766804341439856673/774818702004322304/unknown.png) \
+> *Note: if you have node yet installed depandancies do so now using the following commands,
+```sh
+$ npm i
+$ node server.js
+```
