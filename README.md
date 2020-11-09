@@ -29,6 +29,8 @@ Run mocha tests in intellij or by running the following test command
 $ npm run test
 ```
 
+### [Documentation - *wip*](https://github.com/bsovs/build-a-bot/tree/master/src#docs---wip)
+
 # Full Guide
 ### Step 1
 > Create a new application at: \
@@ -58,6 +60,11 @@ $ npm run test
 $ npm i
 $ node server.js
 ```
+### Step 6
+> Customise a new command.  \
+> Use ``` npm run new ``` to create a new command. \
+> Open up your new command *(found in ./src/bot/commands/)* \
+> Once your command is registered you can refresh it by sending ```!refresh *your command*``` to discord.
 ### Hosting on Heroku
 > In order to keep your bot running all the time we suggest using Heroku hosting solutions. \
 > Head over to https://devcenter.heroku.com/articles/git and learn about how to deploy nodejs apps to Heroku \
